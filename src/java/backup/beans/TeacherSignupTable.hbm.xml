@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="backup.beans">
+    <class name="TeacherSignupTable" table="teachersignup_hbnet">
+        <id name="teacherId" column="teacherId"></id>
+        <property name ="teacherPassword" column="teacherPassword"></property>
+        <property name ="teacherName" column="teacherName"></property>
+        <property name ="collegeName" column="collegeName"></property>
+        <property name ="collegeId" column="collegeId"></property>
+        <property name ="mailId" column="mailId"></property>
+        <property name ="refralCode" column="refralCode"></property>
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="backup.beans">
+    <class name="CollegeTable" table="collegetable_hbnet">
+        <id name="collegeId" column="collegeId"></id>
+        <property name ="collegeName" column="collegeName"></property>
+        <property name ="totalFaculty" column="totalFaculty"></property>
+        <property name ="studentTraffic" column="studentTraffic"></property>
+        <property name ="status" column="status"></property>
+        
+    </class>
+</hibernate-mapping>
+
+

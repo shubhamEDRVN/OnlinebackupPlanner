@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="backup.beans">
+    <class name="BackupRequestTable" table="backuprequest_hbnet">
+        <id name="serialNo" column="serialNo"></id>
+        <property name ="studentId" column="studentId"></property>
+        <property name ="teacherId" column="teacherId"></property>
+        <property name ="subject" column="subject"></property>
+        <property name ="topic" column="topic"></property>
+        <property name ="description" column="description"></property>
+        <property name ="status" column="status"></property>   
+        <property name ="reply" column="reply"></property>
+        
+    </class>
+</hibernate-mapping>
+

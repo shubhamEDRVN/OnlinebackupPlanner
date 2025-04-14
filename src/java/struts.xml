@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="technosoftinformatics" namespace="/"
+    extends="struts-default">
+        
+        <action name="homepage">
+            <result>
+                StudentSignup.jsp</result>
+        </action>
+        
+        
+        <action name="viewTeachers">
+            <result>
+                StudentViewTeachers.jsp</result>
+        </action>
+      
+        
+         <action name="aboutus">
+            <result>
+                about.jsp</result>
+        </action>
+        
+        
+        
+         <action name="studentSettings">
+            <result>
+                studentSettings.jsp</result>
+        </action>
+        
+                
+         <action name="services">
+            <result>
+                services.jsp</result>
+        </action>
+        
+        <action name="studentlogin">
+            <result>
+                StudentLogin.jsp</result>
+        </action>
+        
+        
+         <action name="homepg">
+            <result>
+                StudentLoginDashboard.jsp</result>
+        </action>
+        
+        <action name="studentloginlogicalcode" class="struts.action.StudentActionCode" method="checkUser">
+            <result name="success">StudentLoginDashboard.jsp</result>
+            <result name="error">StudentLogin.jsp</result>
+        </action>
+        
+        <action name="home">
+            <result>
+                StudentSignup.jsp</result>
+        </action>
+        
+        <action name="studentsignuplogicalcode" class="struts.action.StudentActionCode">
+            <result name="success">StudentLogin.jsp</result>
+            <result name="error">Studentsignup.jsp</result>
+        </action>
+        
+        <action name="studentupdatepassword">
+            <result>
+                StudentUpdatePassword.jsp</result>
+        </action>
+        
+        <action name="studentupdatepasswordlogicalcode" class="struts.action.StudentActionCode" method="userUpdatePassword">
+            <result name="success">StudentLogin.jsp</result>
+            <result name="error">StudentUpdatePassword</result>
+        </action>
+        
+        
+         <action name="studentDeleteAccountCode" class="struts.action.StudentActionCode" method="userDeleteAccount">
+            <result name="success">StudentLogin.jsp</result>
+            <result name="error">StudentUpdatePassword</result>
+        </action>
+        
+        <action name="studentfeedback">
+            <result>
+                StudentFeedback.jsp</result>
+        </action>
+        
+        <action name="CollegeRegister">
+            <result>
+                CollegeRegister.jsp</result>
+        </action>
+        
+        
+        
+        
+        
+        
+        
+         <action name="TeacherBlockLogicalcode">
+            <result>
+                TeacherDashboard.jsp</result>
+        </action>
+        
+            
+                    
+    </package>
+    </struts>
