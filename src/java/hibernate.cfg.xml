@@ -12,9 +12,13 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
-         <mapping resource="backup/beans/StudentSignupTable.hbm.xml"/>
-       <mapping resource="backup/beans/StudentFeedbackTable.hbm.xml"/>
-      
+        <mapping resource="backup/beans/StudentSignupTable.hbm.xml"/>
+        <mapping resource="backup/beans/StudentFeedbackTable.hbm.xml"/>
+        <mapping resource="backup/beans/TeacherSignupTable.hbm.xml"/>
+        <mapping resource="backup/beans/BackupRequestTable.hbm.xml"/>
+        <mapping resource="backup/beans/CollegeTable.hbm.xml"/>
+        <mapping resource="backup/beans/AdminLogin.hbm.xml"/>
+        <mapping resource="backup/beans/backup.hbm.xml"/>
         </session-factory>
         </hibernate-configuration>
             

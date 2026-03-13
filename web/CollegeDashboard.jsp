@@ -88,7 +88,7 @@
         <%@include file="CollegeHeader.jsp" %>
            <div align="center">          
           
-      <s:form action="studentsignuplogicalcode.action" method="post" enctype="multipart/form-data ">
+      <s:form action="teacherRegisterlogicalcode.action" method="post" enctype="multipart/form-data ">
                 <table class="innertabletheme" width ="40%" align="center" cellspacing="25" style="border:ridge">
                     <tr><td>
 <s:textfield label="TEACHER ID" class="fieldtheme" name="teacherId"/></td></tr>

@@ -104,7 +104,6 @@
  <tr align="center"><td colspan="2">
 <s:submit value="submit"/>
     </td></tr>
-    </td></tr>
                 </table>
 </s:form>
            
@@ -112,4 +111,4 @@
         </div>
        
     </body>
-</html
+</html>

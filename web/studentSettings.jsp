@@ -98,7 +98,7 @@
             
             
             <h1 align=center>change password</h1>
-             <s:form action="studentupdatepassword.action" method="post" >
+             <s:form action="studentupdatepasswordlogicalcode.action" method="post" >
             <table width ="40%" align="center" cellspacing="25" class="innertabletheme" style="border:ridge">
                 
                 <tr>
@@ -120,7 +120,11 @@
                     <td><s:textfield label="CONFIRM NEW PASSWORD" name="confirmPassword" class="fieldtheme"/>
                         </td>
                         </tr>
-                 
+                
+                <tr align="center"><td colspan="2">
+<s:submit label="SUBMIT" class="buttontheme" theme="simple"/>
+</td></tr>
+
             </table>
             </s:form>
         
