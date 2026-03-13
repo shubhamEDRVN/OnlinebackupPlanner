@@ -12,7 +12,6 @@
         <property name ="collegeName" column="collegeName"></property>
         <property name ="mailId" column="mailId"></property>
         <property name ="contactNo" column="contactNo"></property>
-        <property name ="photo" column="photo1"></property>
 
         
     </class>

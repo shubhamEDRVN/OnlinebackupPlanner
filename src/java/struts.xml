@@ -65,18 +65,18 @@
         
         <action name="studentupdatepassword">
             <result>
-                StudentUpdatePassword.jsp</result>
+                studentSettings.jsp</result>
         </action>
         
         <action name="studentupdatepasswordlogicalcode" class="struts.action.StudentActionCode" method="userUpdatePassword">
             <result name="success">StudentLogin.jsp</result>
-            <result name="error">StudentUpdatePassword</result>
+            <result name="error">studentSettings.jsp</result>
         </action>
         
         
          <action name="studentDeleteAccountCode" class="struts.action.StudentActionCode" method="userDeleteAccount">
             <result name="success">StudentLogin.jsp</result>
-            <result name="error">StudentUpdatePassword</result>
+            <result name="error">StudentDeleteAccount.jsp</result>
         </action>
         
         <action name="studentfeedback">
@@ -100,6 +100,25 @@
                 TeacherDashboard.jsp</result>
         </action>
         
+        <action name="teacherRegisterlogicalcode">
+            <result name="success">TeacherLogin.jsp</result>
+            <result name="error">CollegeDashboard.jsp</result>
+        </action>
+        
+        <action name="TeacherBlockStudent">
+            <result>
+                TeacherBlockStudent.jsp</result>
+        </action>
+        
+        <action name="teacherupdatepassword">
+            <result>
+                TeacherUpdatePassword.jsp</result>
+        </action>
+        
+        <action name="TeacherLogin">
+            <result>
+                TeacherLogin.jsp</result>
+        </action>
             
                     
     </package>

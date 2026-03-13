@@ -100,7 +100,7 @@
         
             <div align="center">          
           
-      <s:form action="studentDeleteAccoubtCode.action" method="post" >
+      <s:form action="studentDeleteAccountCode.action" method="post" >
                 <table class="innertabletheme" width ="40%" align="center" cellspacing="20" style="border:ridge">
                     <tr><td>
 <s:textfield label="STUDENT_ID" class="fieldtheme" name="studentId"/></td></tr>
@@ -117,4 +117,4 @@
         </div>
        
     </body>
-</html
+</html>

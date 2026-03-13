@@ -111,7 +111,10 @@
                          </td>
                          </tr>       
                 
-  
+                <tr align="center"><td colspan="2">
+<s:submit label="SUBMIT" class="buttontheme" theme="simple"/>
+</td></tr>
+
             </table>
             </s:form>
         
